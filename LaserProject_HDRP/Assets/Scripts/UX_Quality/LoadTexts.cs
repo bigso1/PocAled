@@ -39,7 +39,7 @@ public class LoadTexts : MonoBehaviour
         once = true;
         myIndex = indexx;
         doFade = true;
-        yield return new WaitForSeconds(4f);
+        yield return new WaitForSeconds(2f);
         doFade = false;
         once = false;
     }
