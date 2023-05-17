@@ -9,7 +9,7 @@ public class CallEndGame : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if(!other.CompareTag("Player")) return;
-        
+        StartCoroutine(CallEnd());
     }
 
     IEnumerator CallEnd()

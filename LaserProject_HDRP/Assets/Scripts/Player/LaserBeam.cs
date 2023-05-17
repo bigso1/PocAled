@@ -3,8 +3,8 @@ using UnityEngine;
 
 public class LaserBeam
 {
-    public float range=12;
-    public float extraRange=10f;
+    public float range=10;
+    public float extraRange=12f;
     public int bounce=2;
     private Vector3 pos, dir;
     //public int maxBounce;
